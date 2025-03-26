@@ -4,7 +4,7 @@ import {HomePage} from '../../../modules/home/home/home.page';
 
 export const publicRoutes: Route = {
   path: '', component: PublicComponent, children: [
-    {path: '', component: HomePage}
+    { path: '', component: HomePage, data: {title: "Início" }}
   ]
 }
 
